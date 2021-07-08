@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import classes from "./main-header.module.css";
+import classes from "./MainHeader.module.css";
 
 const MainHeader = () => {
     return (

@@ -1,9 +1,9 @@
 import React from "react";
 import classes from "./EventItem.module.css";
 import Button from "../ui/button";
-import DateIcon from "../icons/date-icon";
-import AddressIcon from "../icons/address-icon";
-import ArrowRightIcon from "../icons/arrow-right-icon";
+import DateIcon from "../icons/DateIcon";
+import AddressIcon from "../icons/AddressIcon";
+import ArrowRightIcon from "../icons/ArrowRightIcon";
 
 const EventItem = (props) => {
     const { title, image, date, location, id } = props;
