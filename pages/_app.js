@@ -7,6 +7,8 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <title>Next Events Application</title>
+        <meta name="description" content="An events application in NextJS" />
       </Head>
       <Component {...pageProps} />
     </Layout>
